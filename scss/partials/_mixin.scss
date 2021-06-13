@@ -1,0 +1,64 @@
+/* Dependencies */
+
+@import "variables";
+
+/* Re usable components */
+
+.row {
+  width: 100rem;
+  margin: 0 auto;
+}
+
+.btn {
+  color: $pale_blue;
+  background: $pink;
+  padding: 1.5rem 7rem;
+  font: {
+    size: 1.3rem;
+    weight: 600;
+  }
+  border-radius: 3rem;
+  border: 0.2rem solid $pink;
+  text-transform: capitalize;
+
+  &:hover {
+    background: $light_pink;
+    border: 0.2rem solid $light_pink;
+  }
+
+  &-navigation {
+    @extend .btn;
+    color: $pink;
+    padding: 0.8rem 3rem;
+    background: transparent;
+
+    &:hover {
+      color: $light_pink;
+      border-color: $light_pink;
+      background: transparent;
+    }
+  }
+
+  &-hero {
+    @extend .btn;
+  }
+
+  &-build-community {
+    @extend .btn;
+  }
+
+  &-newsletter {
+    @extend .btn;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    padding: 1rem 3.5rem;
+  }
+}
+
+// media queries
+
+@mixin media-query($size) {
+  @media screen and (min-width: map-get($size, "min")) and (max-width: map-get($size, "max")) {
+    @content;
+  }
+}

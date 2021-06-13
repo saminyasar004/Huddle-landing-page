@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* Dependencies */
+/* Define all essential variables */
+/* Dependencies */
+/* Define all essential variables */
+/* Re usable components */
+.row {
+  width: 100rem;
+  margin: 0 auto;
+}
+
+.btn, .btn-navigation, .btn-hero, .btn-build-community, .btn-newsletter {
+  color: #f5faff;
+  background: #ff52bf;
+  padding: 1.5rem 7rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border-radius: 3rem;
+  border: 0.2rem solid #ff52bf;
+  text-transform: capitalize;
+}
+
+.btn:hover, .btn-navigation:hover, .btn-hero:hover, .btn-build-community:hover, .btn-newsletter:hover {
+  background: #ff8fd8;
+  border: 0.2rem solid #ff8fd8;
+}
+
+.btn-navigation {
+  color: #ff52bf;
+  padding: 0.8rem 3rem;
+  background: transparent;
+}
+
+.btn-navigation:hover {
+  color: #ff8fd8;
+  border-color: #ff8fd8;
+  background: transparent;
+}
+
+.btn-newsletter {
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 1rem 3.5rem;
+}
+
+/*
+ * 320px — 480px: Mobile devices. {xsmall}
+ * 481px — 768px: iPads, Tablets. {small}
+ * 769px — 1024px: Small screens, laptops. {medium}
+ * 1025px — 1200px: Desktops, large screens. {large}
+ * 1201px and more — Extra large screens, TV. {xlarge}
+*/
+/* xsmall */
+/* small */
+/* medium */
+/* large */
+/* xlarge */
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  /* all are fit to screen */
+}

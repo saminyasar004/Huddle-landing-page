@@ -1,0 +1,97 @@
+/* Dependencies */
+
+@import "variables";
+@import "mixin";
+
+/* Basic styles */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+html {
+  font: {
+    size: $html_font_size;
+  }
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+}
+
+::-webkit-scrollbar {
+  width: 1.1rem;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 0rem;
+  height: 12rem;
+  background: linear-gradient(180deg, $light_pink 5%, $pink);
+  border-radius: 1rem;
+}
+
+body {
+  font: {
+    family: $default_font_family;
+  }
+  cursor: default;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $dark_cyan;
+  font: {
+    family: $heading_font_family;
+  }
+}
+
+h1 {
+  font: {
+    size: $hero_heading_font_size;
+    weight: $hero_heading_font_weight;
+  }
+}
+
+@for $i from 2 through 6 {
+  h#{$i} {
+    font: {
+      size: ($hero_heading_font_size - ($i/10));
+      weight: ($hero_heading_font_weight - ($i - 1) * 100);
+    }
+  }
+}
+
+p,
+span {
+  color: $dark_cyan;
+  font: {
+    family: $para_font_family;
+    size: $para_font_size;
+    weight: $para_font_weight;
+  }
+  line-height: $para_line_height;
+}
+
+a {
+  text-decoration: none;
+  color: $light_pink;
+  font: {
+    family: $para_font_family;
+  }
+}
+
+button,
+input {
+  border: none;
+  outline: none;
+}

@@ -1,0 +1,52 @@
+/* Define all essential variables */
+
+// colors
+
+$pink: hsl(322, 100%, 66%);
+$light_pink: hsl(321, 100%, 78%);
+$light_red: hsl(0, 100%, 63%);
+$light_sky_blue: hsl(191, 100%, 48%);
+
+$dark_cyan: hsl(192, 100%, 9%);
+$pale_blue: hsl(207, 100%, 98%);
+
+// typography
+
+$heading_font_family: "Poppins", sans-serif;
+$para_font_family: "Open Sans", sans-serif;
+$default_font_family: $para_font_family;
+
+$hero_heading_font_size: 4rem;
+$hero_heading_font_weight: 700;
+$para_font_size: 1.5rem;
+$para_font_weight: 600;
+$para_line_height: 1.5;
+
+$html_font_size: 62.5%;
+
+// animation
+
+$transition: all 0.3s;
+
+// media queries
+$xsmall: (
+  "min": 320px,
+  "max": 480px,
+);
+$small: (
+  "min": 481px,
+  "max": 768px,
+);
+$medium: (
+  "min": 769px,
+  "max": 1024px,
+);
+$large: (
+  "min": 1025px,
+  "max": 1200px,
+);
+$xlarge: (
+  "min": 1201px,
+  "max": 1400px,
+);
+$row-width-gap: 6rem;
