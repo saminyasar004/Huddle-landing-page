@@ -51,9 +51,256 @@
  * 1201px and more — Extra large screens, TV. {xlarge}
 */
 /* xsmall */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  /* basic style start */
+  html {
+    font-size: 50.5%;
+  }
+  .row {
+    width: calc(100% - 6rem);
+  }
+  /* basic style end */
+  /* navigation section start */
+  #navigation-section .row .navigation-logo a img {
+    max-width: 60%;
+  }
+  /* navigation section end */
+  /* hero section start */
+  #hero-section .row .hero-text-1 p {
+    width: 75%;
+  }
+  #hero-section .row .hero-text-2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 6rem;
+  }
+  #hero-section .row .hero-text-2-communities-heading h2, #hero-section .row .hero-text-2-messages-heading h2 {
+    font-size: 6.5rem;
+  }
+  /* hero section end */
+  /* grow together section start */
+  #grow-together-section {
+    text-align: center;
+    padding: 10rem 0rem 10rem 0rem;
+  }
+  #grow-together-section .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 4rem;
+  }
+  #grow-together-section .row .grow-together-image {
+    text-align: center;
+  }
+  #grow-together-section .row .grow-together-image img {
+    width: 80%;
+  }
+  /* grow together section end */
+  /* flowing conversation section start */
+  #flowing-conversation-section {
+    text-align: center;
+    padding: 10rem 0rem 10rem 0rem;
+  }
+  #flowing-conversation-section .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 4rem;
+  }
+  #flowing-conversation-section .row .flowing-conversation-image {
+    text-align: center;
+  }
+  #flowing-conversation-section .row .flowing-conversation-image img {
+    width: 80%;
+  }
+  /* flowing conversation section end */
+  /* your users section start */
+  #your-users-section {
+    text-align: center;
+    padding: 10rem 0rem 10rem 0rem;
+  }
+  #your-users-section .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 4rem;
+  }
+  #your-users-section .row .your-users-image {
+    text-align: center;
+  }
+  #your-users-section .row .your-users-image img {
+    width: 80%;
+  }
+  /* your users section end */
+  /* build community section start */
+  #build-community-section {
+    text-align: center;
+  }
+  /* build community section end */
+  /* footer section start */
+  #footer-section .row {
+    -ms-grid-columns: inherit;
+        grid-template-columns: inherit;
+    grid-gap: 8rem;
+  }
+  /* footer section end */
+}
+
 /* small */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* basic style start */
+  html {
+    font-size: 55.5%;
+  }
+  .row {
+    width: calc(100% - 6rem);
+  }
+  /* basic style end */
+  /* navigation section start */
+  #navigation-section .row .navigation-logo a img {
+    max-width: 60%;
+  }
+  /* navigation section end */
+  /* hero section start */
+  #hero-section .row .hero-text-1 p {
+    width: 75%;
+  }
+  #hero-section .row .hero-text-2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 6rem;
+  }
+  #hero-section .row .hero-text-2-communities-heading h2, #hero-section .row .hero-text-2-messages-heading h2 {
+    font-size: 6.5rem;
+  }
+  /* hero section end */
+  /* grow together section start */
+  #grow-together-section {
+    text-align: center;
+    padding: 10rem 0rem 10rem 0rem;
+  }
+  #grow-together-section .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 4rem;
+  }
+  #grow-together-section .row .grow-together-image {
+    text-align: center;
+  }
+  #grow-together-section .row .grow-together-image img {
+    width: 80%;
+  }
+  /* grow together section end */
+  /* flowing conversation section start */
+  #flowing-conversation-section {
+    text-align: center;
+    padding: 10rem 0rem 10rem 0rem;
+  }
+  #flowing-conversation-section .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 4rem;
+  }
+  #flowing-conversation-section .row .flowing-conversation-image {
+    text-align: center;
+  }
+  #flowing-conversation-section .row .flowing-conversation-image img {
+    width: 80%;
+  }
+  /* flowing conversation section end */
+  /* your users section start */
+  #your-users-section {
+    text-align: center;
+    padding: 10rem 0rem 10rem 0rem;
+  }
+  #your-users-section .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 4rem;
+  }
+  #your-users-section .row .your-users-image {
+    text-align: center;
+  }
+  #your-users-section .row .your-users-image img {
+    width: 80%;
+  }
+  /* your users section end */
+  /* build community section start */
+  #build-community-section {
+    text-align: center;
+  }
+  /* build community section end */
+  /* footer section start */
+  #footer-section .row {
+    -ms-grid-columns: inherit;
+        grid-template-columns: inherit;
+    grid-gap: 8rem;
+  }
+  /* footer section end */
+}
+
 /* medium */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* basic style start */
+  html {
+    font-size: 65.5%;
+  }
+  .row {
+    width: calc(100% - 6rem);
+  }
+  /* basic style end */
+  /* hero section start */
+  #hero-section .row .hero-text-1 p {
+    width: 75%;
+  }
+  /* hero section end */
+  /* grow together section start */
+  #grow-together-section .row .grow-together-image img {
+    width: 80%;
+  }
+  /* grow together section end */
+  /* flowing conversation section start */
+  #flowing-conversation-section .row .flowing-conversation-image img {
+    width: 80%;
+  }
+  /* flowing conversation section end */
+  /* your users section start */
+  #your-users-section .row .your-users-image img {
+    width: 80%;
+  }
+  /* your users section end */
+}
+
 /* large */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  /* basic style start */
+  html {
+    font-size: 65.5%;
+  }
+  .row {
+    width: calc(100% - 6rem);
+  }
+  /* basic style end */
+  /* hero section start */
+  #hero-section .row .hero-text-1 p {
+    width: 65%;
+  }
+  /* hero section end */
+}
+
 /* xlarge */
 @media screen and (min-width: 1201px) and (max-width: 1400px) {
   /* all are fit to screen */

@@ -13,21 +13,355 @@
 /* xsmall */
 
 @include media-query($xsmall) {
+  /* basic style start */
+  $html_font_size: 50.5%;
+  html {
+    font-size: $html_font_size;
+  }
+
+  .row {
+    width: calc(100% - #{$row-width-gap});
+  }
+  /* basic style end */
+
+  /* navigation section start */
+  #navigation-section {
+    .row {
+      .navigation-logo {
+        a {
+          img {
+            max-width: 60%;
+          }
+        }
+      }
+    }
+  }
+  /* navigation section end */
+
+  /* hero section start */
+  #hero-section {
+    .row {
+      .hero-text-1 {
+        p {
+          width: 75%;
+        }
+      }
+
+      .hero-text-2 {
+        flex-direction: column;
+        gap: 6rem;
+
+        &-communities,
+        &-messages {
+          &-heading {
+            h2 {
+              font: {
+                size: 6.5rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  /* hero section end */
+
+  /* grow together section start */
+  #grow-together-section {
+    text-align: center;
+    padding: 10rem 0rem 10rem 0rem;
+
+    .row {
+      flex-direction: column;
+      gap: 4rem;
+
+      .grow-together-image {
+        text-align: center;
+
+        img {
+          width: 80%;
+        }
+      }
+    }
+  }
+  /* grow together section end */
+
+  /* flowing conversation section start */
+  #flowing-conversation-section {
+    text-align: center;
+    padding: 10rem 0rem 10rem 0rem;
+
+    .row {
+      flex-direction: column;
+      gap: 4rem;
+
+      .flowing-conversation-image {
+        text-align: center;
+
+        img {
+          width: 80%;
+        }
+      }
+    }
+  }
+  /* flowing conversation section end */
+
+  /* your users section start */
+  #your-users-section {
+    text-align: center;
+    padding: 10rem 0rem 10rem 0rem;
+
+    .row {
+      flex-direction: column;
+      gap: 4rem;
+
+      .your-users-image {
+        text-align: center;
+
+        img {
+          width: 80%;
+        }
+      }
+    }
+  }
+  /* your users section end */
+
+  /* build community section start */
+  #build-community-section {
+    text-align: center;
+  }
+  /* build community section end */
+
+  /* footer section start */
+  #footer-section {
+    .row {
+      grid-template-columns: inherit;
+      grid-gap: 8rem;
+    }
+  }
+  /* footer section end */
 }
 
 /* small */
 
 @include media-query($small) {
+  /* basic style start */
+  $html_font_size: 55.5%;
+  html {
+    font-size: $html_font_size;
+  }
+
+  .row {
+    width: calc(100% - #{$row-width-gap});
+  }
+  /* basic style end */
+
+  /* navigation section start */
+  #navigation-section {
+    .row {
+      .navigation-logo {
+        a {
+          img {
+            max-width: 60%;
+          }
+        }
+      }
+    }
+  }
+  /* navigation section end */
+
+  /* hero section start */
+  #hero-section {
+    .row {
+      .hero-text-1 {
+        p {
+          width: 75%;
+        }
+      }
+
+      .hero-text-2 {
+        flex-direction: column;
+        gap: 6rem;
+
+        &-communities,
+        &-messages {
+          &-heading {
+            h2 {
+              font: {
+                size: 6.5rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  /* hero section end */
+
+  /* grow together section start */
+  #grow-together-section {
+    text-align: center;
+    padding: 10rem 0rem 10rem 0rem;
+
+    .row {
+      flex-direction: column;
+      gap: 4rem;
+
+      .grow-together-image {
+        text-align: center;
+
+        img {
+          width: 80%;
+        }
+      }
+    }
+  }
+  /* grow together section end */
+
+  /* flowing conversation section start */
+  #flowing-conversation-section {
+    text-align: center;
+    padding: 10rem 0rem 10rem 0rem;
+
+    .row {
+      flex-direction: column;
+      gap: 4rem;
+
+      .flowing-conversation-image {
+        text-align: center;
+
+        img {
+          width: 80%;
+        }
+      }
+    }
+  }
+  /* flowing conversation section end */
+
+  /* your users section start */
+  #your-users-section {
+    text-align: center;
+    padding: 10rem 0rem 10rem 0rem;
+
+    .row {
+      flex-direction: column;
+      gap: 4rem;
+
+      .your-users-image {
+        text-align: center;
+
+        img {
+          width: 80%;
+        }
+      }
+    }
+  }
+  /* your users section end */
+
+  /* build community section start */
+  #build-community-section {
+    text-align: center;
+  }
+  /* build community section end */
+
+  /* footer section start */
+  #footer-section {
+    .row {
+      grid-template-columns: inherit;
+      grid-gap: 8rem;
+    }
+  }
+  /* footer section end */
 }
 
 /* medium */
 
 @include media-query($medium) {
+  /* basic style start */
+  $html_font_size: 65.5%;
+  html {
+    font-size: $html_font_size;
+  }
+
+  .row {
+    width: calc(100% - #{$row-width-gap});
+  }
+  /* basic style end */
+
+  /* hero section start */
+  #hero-section {
+    .row {
+      .hero-text-1 {
+        p {
+          width: 75%;
+        }
+      }
+    }
+  }
+  /* hero section end */
+
+  /* grow together section start */
+  #grow-together-section {
+    .row {
+      .grow-together-image {
+        img {
+          width: 80%;
+        }
+      }
+    }
+  }
+  /* grow together section end */
+
+  /* flowing conversation section start */
+  #flowing-conversation-section {
+    .row {
+      .flowing-conversation-image {
+        img {
+          width: 80%;
+        }
+      }
+    }
+  }
+  /* flowing conversation section end */
+
+  /* your users section start */
+  #your-users-section {
+    .row {
+      .your-users-image {
+        img {
+          width: 80%;
+        }
+      }
+    }
+  }
+  /* your users section end */
 }
 
 /* large */
 
 @include media-query($large) {
+  /* basic style start */
+  $html_font_size: 65.5%;
+  html {
+    font-size: $html_font_size;
+  }
+
+  .row {
+    width: calc(100% - #{$row-width-gap});
+  }
+  /* basic style end */
+
+  /* hero section start */
+  #hero-section {
+    .row {
+      .hero-text-1 {
+        p {
+          width: 65%;
+        }
+      }
+    }
+  }
+  /* hero section end */
 }
 
 /* xlarge */
