@@ -2,8 +2,8 @@
   "liveSassCompile.settings.formats": [
     // More Complex
     {
-      "format": "expanded",
-      "extensionName": ".css",
+      "format": "compressed",
+      "extensionName": ".min.css",
       "savePath": "~/../css/"
     }
   ],
