@@ -16,4 +16,4 @@
 - CSS
 - SCSS
 
-## Live Preview:
+## Live Preview: https://huddlee.vercel.app/
